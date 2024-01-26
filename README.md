@@ -1,7 +1,5 @@
 # Weather App 🌧️
 
-View here: file:///C:/Users/KG/Portfolio%20Work/Weather%20App/index.html 
-
 Welcome to Weather App! This application provides real-time weather information for your location and any other location you are interested in. With a simple and intuitive interface, staying informed about the weather conditions has never been easier.
 
 ## Features 📠
