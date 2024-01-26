@@ -1,0 +1,75 @@
+<!--Author: Kgothatso Lechoenyo
+Date: 26 January 2024
+Description: this is the index page for the weather App. This is where the initialization of the containers used.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+    
+</head>
+<body>
+	
+	<!--container for the weather app-->
+	<div class="container">
+	
+	<!--container for the background app-->
+	<video autoplay loop muted plays-inline class="background-clip">
+		<source src="images/DefaultVideo.mp4" type="video/mp4">
+	</video>
+	
+<!--container for the content in the box-->
+    <div class="content">
+	
+	<!--container for the search box-->
+        <div class="search-box">
+		<!--location icon in the search box-->
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Enter your location" id="location-id">
+<!--search icon in the search box-->
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+<!--container for the not found container-->
+        <div class="not-found">
+            <img src="images/notFound.GIF" alt="error 404 not-found" >
+            <p>Ooops! Invalid location :/</p>
+        </div>
+<!--container for the weather box-->
+        <div class="weather-box">
+            <img src="images/clouds.jpg" alt="" type="GIF">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+<!--weather details -->
+        <div class="weather-details">
+            <div class="humidity">
+			<!--water icon-->
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="wind">
+			<!--wind icon-->
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!--javascript script for the font and index page-->
+    <script src="https://kit.fontawesome.com/aaa8e0bf14.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
