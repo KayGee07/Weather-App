@@ -26,7 +26,7 @@ That's it! You're ready to start using the Weather App.
 2. Alternatively, use the search feature to look up weather information for specific locations.
 3. View current weather conditions for your location or any other location you've searched for.
 
-## Upcoming Feauture ##
+## Upcoming Feauture 🆕
 
 - **Cities' Near You**: 3 cities near you will appear underneath the search bar with temperature information.
 
