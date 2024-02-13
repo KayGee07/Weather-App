@@ -15,7 +15,7 @@ Welcome to Weather App! This application provides real-time weather information 
 - **Frameworks/Libraries**: None used in this basic version.
 
 ## Installation 🌐
-1. Clone this repository: `git clone https://github.com/KayGee07/KayGee-Weather-App.git`
+1. Clone this repository: `git clone https://github.com/KayGee07/Weather-App.git`
 2. Open `index.html` in your preferred web browser.
 
 That's it! You're ready to start using the Weather App.
@@ -25,6 +25,10 @@ That's it! You're ready to start using the Weather App.
 1. Upon opening the application, allow access to your current location to receive accurate weather updates.
 2. Alternatively, use the search feature to look up weather information for specific locations.
 3. View current weather conditions for your location or any other location you've searched for.
+
+## Upcoming Feauture ##
+
+- **Cities' Near You**: 3 cities near you will appear underneath the search bar with temperature information.
 
 ## Demo 📺
 ### Landing Page
